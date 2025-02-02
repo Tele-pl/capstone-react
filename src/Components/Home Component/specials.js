@@ -1,8 +1,21 @@
 const Specials = () => {
     return (
-        <div>
+        <div className="specials">
             <h1>Specials</h1>
-            <p>This is the Specials component.</p>
+                <div className="specials-cards">
+                    <div>
+                        <h1>Specials</h1>
+                        <p>This is the Specials component.</p>
+                    </div>
+                    <div>
+                        <h1>Specials</h1>
+                        <p>This is the Specials component.</p>
+                    </div>
+                    <div>
+                        <h1>Specials</h1>
+                        <p>This is the Specials component.</p>
+                    </div>
+                </div>
         </div>
     );
 };

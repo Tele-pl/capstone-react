@@ -116,10 +116,135 @@
 }
 
 .App-footer {
-  background-color: black;
-  color: white;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #d9d9d9;
   justify-content: center;
-  align-items: center;
-  height: 10vh;
+  min-height: 20vh;
+  padding: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: auto;
+  padding: 2rem;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+  padding: 2rem;
+  padding-top: 50%;
+}
+
+.footer-social a {
+  padding: 1rem;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: 30px;
+  transition: 0.2s;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+
+.footer-nav a {
+  padding: 1rem;
+}
+
+.coming-soon {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.specials {
+  text-align: center;
+  font-size: 2rem;
+  background: #3E534D;
+  color: white;
+  padding: 1rem;
+}
+
+.specials-cards {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem;
+}
+
+.reviews {
+  text-align: center;
+  font-size: 2rem;
+  background: #F4CE14;
+  padding: 1rem;
+}
+
+.AboutUs {
+  text-align: center;
+  background-color: #3E534D;
+  color: white;
+  padding: 1rem;
+}
+
+.reservations {
+  text-align: center;
+  background-color: #3E534D;
+  color: white;
+  padding: 1rem;
+}
+
+.reservations input {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.reservations div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-inline: 10rem;
+}
+
+.reservations button {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #F4CE14;
+  color: black;
+  padding: 1rem;
+  padding-inline: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.reservations button:hover {
+  background-color: #F4CE14;
+  color: white;
+  transform: scale(1.1);
 }
