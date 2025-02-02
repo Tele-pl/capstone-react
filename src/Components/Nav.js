@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home Component/Home';
-import Reservations from './Reservations Component/Reservations';
 import ComingSoon from './Coming-soon';
+import ReservationsPage from './Reservations Component/Reservations-page';
 
 function Nav() {
   return (
@@ -36,7 +36,7 @@ function Nav() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<ComingSoon />} />
         <Route path="/menu" element={<ComingSoon />} />
-        <Route path="/reservations" element={<Reservations />} />
+        <Route path="/reservations" element={<ReservationsPage />} />
         <Route path="/order-online" element={<ComingSoon />} />
         <Route path="/login" element={<ComingSoon />} />
       </Routes>

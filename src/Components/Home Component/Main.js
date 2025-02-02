@@ -1,4 +1,5 @@
 import AboutUs from "./about-us";
+import PromoImages from "./Promo-images";
 import Reviews from "./reviews";
 import Specials from "./specials";
 
@@ -8,6 +9,7 @@ function Main() {
     <Specials/>
     <Reviews/>
     <AboutUs/>
+    <PromoImages/>
    </>
   );
 }
